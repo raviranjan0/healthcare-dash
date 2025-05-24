@@ -1,0 +1,54 @@
+.upcoming-schedule {
+  background-color: #ffffff; /* bg-white */
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* shadow-sm */
+  padding: 1.5rem; /* p-6 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.title {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 700; /* font-bold */
+  color: #1e40af; /* text-primary-900 (blue-900) */
+  margin: 0;
+}
+
+.view-all-btn {
+  background: none;
+  border: none;
+  color: #2563eb; /* text-primary-600 (blue-600) */
+  font-weight: 500; /* font-medium */
+  font-size: 0.875rem; /* text-sm */
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 0;
+}
+
+.view-all-btn:hover {
+  color: #1e40af; /* text-primary-700 (blue-700) */
+}
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* space-y-6 */
+}
+
+.day-schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* space-y-3 */
+}
+
+.day-label {
+  color: #6b7280; /* text-gray-500 */
+  font-weight: 500; /* font-medium */
+  margin: 0 0 0.75rem 0; /* mb-3 */
+}

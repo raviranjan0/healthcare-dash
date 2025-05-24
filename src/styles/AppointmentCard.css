@@ -1,0 +1,74 @@
+.appointment-card {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+}
+
+.appointment-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Color blocks for icons */
+.icon-wrapper {
+  padding: 12px;
+  border-radius: 8px;
+  margin-right: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-dental {
+  background-color: #3b82f6; /* blue-500 */
+}
+
+.color-cardio {
+  background-color: #ef4444; /* red-500 */
+}
+
+.color-neuro {
+  background-color: #8b5cf6; /* purple-500 */
+}
+
+.color-physio {
+  background-color: #10b981; /* green-500 */
+}
+
+.color-default {
+  background-color: #6b7280; /* gray-500 */
+}
+
+.appointment-icon {
+  font-size: 1.25rem;
+}
+
+.appointment-info {
+  flex: 1;
+}
+
+.appointment-title {
+  font-weight: 500;
+  color: #111827; /* gray-900 */
+  margin: 0;
+}
+
+.appointment-doctor {
+  font-size: 0.875rem;
+  color: #6b7280; /* gray-600 */
+  margin: 0;
+}
+
+.appointment-time {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #6b7280; /* gray-500 */
+}
+
+.clock-icon {
+  margin-right: 4px;
+}
