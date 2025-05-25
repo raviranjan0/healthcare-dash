@@ -2,7 +2,7 @@ import React from 'react';
 import HealthStatusCard from './HealthStatusCard';
 
 // Import CSS here
-import '../Styles/HealthStatusCards.css';
+import '../styles/HealthStatusCards.css';
 
 const HealthStatusCards = () => {
   const healthData = [

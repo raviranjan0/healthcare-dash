@@ -2,7 +2,7 @@ import React from 'react';
 import AppointmentCard from './AppointmentCard';
 
 // Import CSS here
-import '../Styles/CalendarView.css';
+import '../styles/CalendarView.css';
 
 const CalendarView = () => {
   const days = Array.from({ length: 31 }, (_, i) => i + 1);
